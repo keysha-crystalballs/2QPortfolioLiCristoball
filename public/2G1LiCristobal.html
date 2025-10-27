@@ -99,6 +99,15 @@
       text-align: center;
     }
 
+    a:link {
+      color: #574486;
+    }
+
+    a:hover {
+      color: #deafe6;
+      font-size: 18px;
+    }
+
     p {
       font-size: 16px;
       line-height: 1.5;
@@ -106,14 +115,13 @@
       text-align: center;
     }
 
-    footer {
-      background-color: #7864aa;
-      color: #c9cad8;
-      padding: 10px;
-      text-align: center;
+    .paragraph img { 
+      float: left;
+      margin-right: 50px;
+      box-shadow: 0 2px 6px #271c39;
     }
 
-    table{
+    table {
       width: 67%;
       margin: 10px auto;
       border-collapse: collapse;
@@ -122,43 +130,45 @@
       border: 1px solid black;
       text-align: center;
     }
-  .table-images {
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-    gap: 30px; 
-    margin: 30px auto;
-    flex-wrap: wrap; 
-  }
+    .table {
+      margin: 30px auto;
+      width: 90%; 
+      align-items: center; 
+      justify-content: center; 
+      gap: 30px; 
+      margin: 30px auto;
+      flex-wrap: wrap; 
+      padding: 20px;
+    }
 
-  .table-images img {
-    width: 350px;
-    height: 350px;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px #271c39;
-  }
+    .table table {
+      width: 67%; 
+      border-collapse: collapse;
+      background-color: #c9cad8;
+      color: #271c39;
+      box-shadow: 0 2px 6px #271c39;
+    }
 
-  .table-images table {
-    width: 67%; 
-    border-collapse: collapse;
-    background-color: #c9cad8;
-    color: #271c39;
-    box-shadow: 0 2px 6px #271c39;
-  }
+    .table th, 
+    .table td {
+      border: 1px solid #271c39;
+      padding: 8px 12px;
+      text-align: center;
+    }
 
-  .table-images th, 
-  .table-images td {
-    border: 1px solid #271c39;
-    padding: 8px 12px;
-    text-align: center;
-  }
+    .table caption {
+      caption-side: top;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #271c39;
+    }
 
-  .table-images caption {
-    caption-side: top;
-    font-weight: bold;
-    margin-bottom: 8px;
-    color: #271c39;
-  }
+    footer {
+      background-color: #7864aa;
+      color: #c9cad8;
+      padding: 10px;
+      text-align: center;
+    }
 
   </style>
 </head>
@@ -183,6 +193,10 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
   </iframe>
+  <p>Reference for this video:</p>
+  <div class="link">
+  <p>KongKaijuSX. (2024b, August 11). Cat Memes Green Screen || Crazy Kat memes [Video]. YouTube. <a href="https://www.youtube.com/watch?v=K-ELI3anPbs">https://www.youtube.com/watch?v=K-ELI3anPbs</a></p>
+  </div>
 
   <div class="cat-memes">
     <div class="tenor-gif-embed" 
@@ -293,6 +307,9 @@ from <a href="https://tenor.com/search/cat+dance-gifs">Cat Dance GIFs</a>
 
   <section>
     <div class="paragraph">
+    <img src="../assets/sigmaCat.jpeg"
+    width="300"
+    height="300">
       <h1>Cat Memes</h1>
       <p> Cats are often described in the internet as the “unofficial mascots” of the web (Wikipedia contributors, 2025). 
         From early memes to viral TikTok clips, their charm continues to dominate online spaces. According to a study by the University of Leeds, watching videos of cute animals especially cats, can reduce stress and anxiety levels by up to 50% (Biris, 2020).
@@ -303,11 +320,7 @@ from <a href="https://tenor.com/search/cat+dance-gifs">Cat Dance GIFs</a>
       </div>
   </section>
 
-<div class="table-images">
-    <img src="../assets/sigmaCat.jpeg"
-    width="350"
-    height="350">
-
+<div class="table">
     <table>
     <caption> 
         Why We Love Cats - Cat Memes! :3 
